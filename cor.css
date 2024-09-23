@@ -15,18 +15,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
 .cor {
     letter-spacing: 4px; 
     margin-top: 20px;
     font-size: 14px;
-}
-
-
-.container {
-    width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #000;
 }
 
 .header {
@@ -107,6 +106,63 @@ body {
 .student-info-table td:nth-child(3) {
     white-space: nowrap;
 }
+
+.subjects-head {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 15px; 
+    background-color: #94a8ea;
+    border: none;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+td {
+    font-size: 15px; 
+    border: none;
+    padding: 4px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.unit-header {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2px;
+    height: 30px;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.sub-text {
+    display: block; 
+    font-size: 12px;
+    margin-top: -3px;
+}
+
+.total {
+    float: right;
+    padding: 8px 20px;
+}
+
+.result {
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+
+.note {
+    font-size: 13px;
+}
+
+
+
+
+
+
 
 
 
