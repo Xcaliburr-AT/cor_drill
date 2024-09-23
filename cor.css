@@ -151,77 +151,84 @@ td {
     padding-left: 4px;
 }
 
-.third-table {
-    border: 1px solid black;
-    margin-left: 20px;
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    margin-left: 4%;
     margin-top: 2%;
-    width: 45%;
+    border: 1px solid black;
+    margin-bottom: 10%;
+}
+
+.third-table, .sched-table {
+    width: 100%;
     border-collapse: collapse;
-    letter-spacing: 5px; 
-    font-size: 15px;
-    text-align: center;
-    background-color: #94a8ea;
 }
 
-.payments {
+.third-table th, .sched-table th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #94a8ea;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.third-table td, .sched-table td {
     font-size: 14px;
-    margin-left: 20px;
-    width: 45%;
-    border: 1px solid black;
-    border-top: none;
-}
-
-.fee {
-    text-align: left;
-}
-.amount {
-    text-align: right;
-
-}
-
-.total_fee {
-    border-top: 1px black solid;
-    text-align: center;
-}
-
-.amount_fee {
-    border-top: 1px black solid;
-    text-align: left;
-    padding-right: 8%;
-    white-space: nowrap;
-}
-.amount_fe {
-    border-top: 1px black solid;
-    text-align: right;
-    white-space: nowrap;
-}
-
-.sched-table {
-    border: 1px solid black;
-    margin-left: 20px;
-    width: 45%;
-    font-size: 15px;
-    text-align: center;
-
-  }
-
-  .sched-table th, .sched-table td {
-    border: 1px solid black;
+    border: none;
     padding: 8px;
-    background-color: white;
-  }
+    text-align: left;
+    line-height: 0.5;
+}
 
-  .sched-table th {
-    background-color: #f2f2f2;
-    background-color: #94a8ea;
-  }
+.third-table .fee, .sched-table .fee {
+    width: 50%;
+    font-family: Arial, sans-serif;
+}
 
-  .payment-date th, .payment-date td {
-    text-align: center;
-    font-size: 11px;
-    padding: 8px;
-    letter-spacing: normal;
-  }
+.third-table .amount, .third-table .amount_fee, .sched-table .amount, .sched-table .amount_fee {
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+.third-table .total_fee, .sched-table .total_fee {
+    font-weight: bold;
+}
+
+.rules {
+    width: 45%;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.rules b {
+    font-weight: bold;
+}
+
+.rules i {
+    font-style: italic;
+}
+
+
+
+
+
 
 
 
