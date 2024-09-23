@@ -56,11 +56,14 @@ body {
     color: red;
 }
 
+.main-wrapper {
+    border: 1px solid black;
+}
 
 .student-info-table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: none;
 }
 
 .header-cell {
@@ -69,25 +72,15 @@ body {
     font-weight: bold;
     padding: 5px; 
     font-size: 15px;
-    border: 1px solid black;
 }
 
 .student-info-table td {
     padding: 4px; 
     font-size: 13px; 
-    border: none; 
 }
 
 .student-info-table tr.header-row td {
     border-bottom: 1px solid black; 
-}
-
-.student-info-table.last {
-    border-top: none;
-}
-
-.student-info-table {
-    border-bottom: none;
 }
 
 .student-info-table.last td {
@@ -109,11 +102,10 @@ body {
 
 .subjects-head {
     width: 100%;
-    border: 1px solid black;
     border-collapse: collapse;
 }
 
-th {
+.second-heading {
     font-size: 15px; 
     background-color: #94a8ea;
     border: none;
@@ -156,14 +148,80 @@ td {
 
 .note {
     font-size: 13px;
+    padding-left: 4px;
 }
 
+.third-table {
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 2%;
+    width: 45%;
+    border-collapse: collapse;
+    letter-spacing: 5px; 
+    font-size: 15px;
+    text-align: center;
+    background-color: #94a8ea;
+}
 
+.payments {
+    font-size: 14px;
+    margin-left: 20px;
+    width: 45%;
+    border: 1px solid black;
+    border-top: none;
+}
 
+.fee {
+    text-align: left;
+}
+.amount {
+    text-align: right;
 
+}
 
+.total_fee {
+    border-top: 1px black solid;
+    text-align: center;
+}
 
+.amount_fee {
+    border-top: 1px black solid;
+    text-align: left;
+    padding-right: 8%;
+    white-space: nowrap;
+}
+.amount_fe {
+    border-top: 1px black solid;
+    text-align: right;
+    white-space: nowrap;
+}
 
+.sched-table {
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 45%;
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+  .sched-table th, .sched-table td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: white;
+  }
+
+  .sched-table th {
+    background-color: #f2f2f2;
+    background-color: #94a8ea;
+  }
+
+  .payment-date th, .payment-date td {
+    text-align: center;
+    font-size: 11px;
+    padding: 8px;
+    letter-spacing: normal;
+  }
 
 
 
